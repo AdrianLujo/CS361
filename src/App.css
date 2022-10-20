@@ -1,0 +1,38 @@
+.flex-container {
+  display: flex;
+  width: 800px;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid white;
+  position:relative;
+
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+.resposive .react-colorful {
+  width: auto;
+  border-radius: 0%;
+}
+input[type="number"] {
+  width: 38px;
+}
+.palette{
+  border-color: black;
+  background-color: white;
+  height: 20px;
+  width: 100px;
+}
+.color-span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 15px;
+}
+label {
+  font-size: medium;
+  font-weight: bold;
+}
